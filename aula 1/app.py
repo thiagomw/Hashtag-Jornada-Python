@@ -38,23 +38,6 @@ tabela = pd.read_csv("./aula 1/produtos.csv")
 
 # Passo 4: Cadastrar 1 produto
 
-pyautogui.click(x=1687, y=274)
-pyautogui.write("MOLO000251")
-pyautogui.press("tab")
-pyautogui.write("Logitech")
-pyautogui.press("tab")
-pyautogui.write("Mouse")
-pyautogui.press("tab")
-pyautogui.write("1")
-pyautogui.press("tab")
-pyautogui.write("25.95")
-pyautogui.press("tab")
-pyautogui.write("6.50")
-pyautogui.press("tab")
-pyautogui.write("Observação teste")
-pyautogui.press("tab")
-pyautogui.press("enter")
-
 # Passo 5: Repetir o passo 4 até acabar a lista de produtos
 
 for linha in tabela.index:
@@ -80,7 +63,7 @@ for linha in tabela.index:
     pyautogui.press("tab")
     pyautogui.write(custo)
     pyautogui.press("tab")
-    if obs != "NaN":
+    if obs != "nan":
         pyautogui.write(obs)
     pyautogui.press("tab")
 
