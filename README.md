@@ -7,8 +7,8 @@ Repositório com os projetos desenvolvidos durante o **Intensivão de Python** d
 | Aula | Conteúdo |
 |------|----------|
 | Aula 01 | Introdução ao Python |
-| Aula 02 | — |
-| Aula 03 | — |
+| Aula 02 | Analisando Dados com Python |
+| Aula 03 | Projeto de Previsão com Machine Learning |
 | Aula 04 | Integração com OpenAI API + Streamlit |
 
 > As descrições das aulas intermediárias podem ser atualizadas conforme o progresso do curso.
